@@ -1,0 +1,148 @@
+body, html {
+	height: 100%;
+}
+
+
+nav {
+	position: fixed;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .7);
+}
+
+nav li {
+	display: inline-block;
+	height: 50px;
+	width: 100px;
+	color: white;
+	line-height: 50px;
+
+}
+
+.last-li {
+	margin-left: 800px;
+}
+
+/*Styles for second and third page*/
+
+.page-head {
+  text-align: center;
+  font-size: 3em;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 100px;
+  /*background-color: rgba(0, 0, 0, .5);*/
+  color: white;
+
+}
+
+/*Styles for the image boxes (image-and)*/
+
+.image-and {
+  height: 400px;
+  width: 310px;
+  border: 5px solid white;
+  margin: 30px;
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+  color: white;
+  font-size: 1.5em;
+}
+
+.image  {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid salmon;
+  
+}
+
+
+
+/*Going to try the parallax effect from w3schools!*/
+
+
+.info {
+  height: 250px;
+  background-color: #121c25;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  /*line-height: 300px;*/
+}
+
+
+.parallax-one {
+  /* The image used */
+  background-image: url('/img/boo.jpg'), url('/img/rose.jpg');
+
+  /* Full height */
+  height: 40%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: left, right;
+  background-repeat: no-repeat;
+  background-size: contain, contain;
+}
+
+
+.parallax-two {
+  /* The image used */
+  background-image: url('/img/ryancs.jpg'), url('/img/echo.jpg');
+
+  /* Full height */
+  height: 90%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: left, right;
+  background-repeat: no-repeat;
+  background-size: contain, contain;
+  
+}
+
+.parallax-three {
+  /* The image used */
+  background-image: url('/img/pumpkin.jpg'), url('/img/kraken.jpg');
+
+  /* Full height */
+  height: 70%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: left, right;
+  background-repeat: no-repeat;
+  background-size: contain, contain;
+
+}
+
+.parallax-four {
+  /* The image used */
+  background-image: url('/img/mugshot.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+footer {
+	width: 100%;
+	background-color: #121c25;
+	color: white;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 30px;
+	border-top: 5px solid white;
+
+}
